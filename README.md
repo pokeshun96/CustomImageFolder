@@ -1,6 +1,6 @@
 # CustomImageFolder
 pytorchで画像分類タスクを行うときに、不正解データの画像ファイルを出力したい！<br>
-ImageFolder クラスを使っていて、ファイルパスも返すように DataLoader を調整するために、カスタムの Dataset クラスを作成する.
+ImageFolder クラスを使っていて、ファイルパスも返すように DataLoader を調整するために、カスタムの Dataset クラスを作成します.
 
 ```
 from torchvision.datasets import ImageFolder
